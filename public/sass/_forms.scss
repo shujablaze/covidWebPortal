@@ -1,0 +1,43 @@
+
+.form{
+
+    &__block{
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    &__label{
+        display:block;
+        font-weight: 700;
+        width:25%;
+        font-size: 1.6rem;
+        color:#333;
+    }
+    
+    &__input{
+        display: block;
+        width:70%;
+        padding:0.7rem 1rem;
+        font-family: 'Lato','san-serif';
+        font-size: 1.7rem;
+        border:2px solid rgb(101, 172, 99);
+    }
+
+    &__select{
+        padding:0.7rem 2rem;
+        font-family: 'Lato','san-serif';
+        font-size: 1.7rem;
+        border:2px solid rgb(101, 172, 99);
+    }
+
+    &__input:focus{
+        border:2px solid rgb(32, 103, 151);
+        outline:none;
+    }
+
+    &__select:focus{
+        border:2px solid rgb(32, 103, 151);
+        outline:none;
+    }
+}

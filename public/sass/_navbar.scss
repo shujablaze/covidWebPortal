@@ -1,0 +1,92 @@
+nav{
+    position: fixed;
+    width:100vw;
+    background-color: #fff;
+    z-index:100;
+}
+
+.navbar_container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    @media only screen and (max-width:550px)
+        {
+            flex-direction: column;
+        }
+}
+
+
+.logo{
+    display:flex;
+    align-items: center;
+    img{
+        height:70%;
+        @media only screen and (max-width:840px)
+        {
+            height:7.5vw;
+        }
+        @media only screen and (max-width:550px)
+        {
+            height:8rem;
+            padding-bottom: 2rem;
+        }
+    }
+
+}
+.logo-text{
+    display:flex;
+    flex-direction: column;
+    
+    span{
+        display: block;
+        font-size: 1.7rem;
+        color:rgb(31, 79, 151);
+        font-weight: 700;
+        @media only screen and (max-width:840px)
+        {
+            font-size: 1.5vw;
+        }
+        @media only screen and (max-width:550px)
+        {
+            font-size:1.1rem;
+        }
+    }
+}
+
+.navlinks{
+    list-style: none;
+    display: flex;
+    a{
+        color:rgb(83, 83, 83);
+        font-size:1.7rem;
+        font-weight: 700;
+        @media only screen and (max-width:840px)
+        {
+            font-size: 1.5vw;
+        }
+        @media only screen and (max-width:550px)
+        {
+            font-size:1.5rem;
+            margin-bottom: 5.5rem;
+        }
+    }
+
+}
+
+
+.navlink a{
+    margin-right: 5rem;
+    transition:color 50ms ease,border-bottom 100ms ease-in-out;
+}
+
+@media only screen and (min-width:1336px)
+{
+.navlink:hover a{
+    color: rgb(48, 77, 138);
+    border-bottom: 2px solid rgb(48, 77, 138) ;
+}
+}
+
+.container{
+    padding-top:110px;
+}

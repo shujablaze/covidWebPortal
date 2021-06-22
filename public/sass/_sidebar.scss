@@ -1,0 +1,64 @@
+.sidebar{
+    font-size: 1.5rem;
+    padding:1.8rem;
+    
+    &__heading{
+        background:rgb(46, 90, 145);
+        color:white;
+        padding: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    
+
+    &__list{
+        list-style: none;
+        li{
+            padding:1.5rem;
+        }
+    }
+
+}
+
+.cancel{
+    background:rgb(189, 69, 69);
+}
+
+.update{
+    background:#FFC633;
+}
+
+.findvc{
+    background:rgb(67, 148, 67);
+}
+
+.vaccines{
+    background: #3aa0e4;
+}
+
+.faqcol{
+    background:rgb(111, 65, 129)
+}
+
+.darken{
+    background-color: rgb(208, 240, 253);
+}
+
+.darken_red{
+    background-color: rgb(255, 168, 168);
+}
+.darken_skyb{
+    background-color: #a9ddff;
+}
+.darken_yellow{
+    background-color: #ffeab5;
+}
+.darken_purp{
+    background-color: rgb(235, 183, 255);
+}
+.darken_green{
+    background-color:rgb(195, 255, 195)
+}

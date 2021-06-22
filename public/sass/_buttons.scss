@@ -1,0 +1,54 @@
+a{
+    text-decoration: none;
+}
+
+.btn{
+    justify-self: center;
+    text-align: center;
+    display:block;
+    color:white;
+    text-transform: uppercase;
+    padding:1rem 1.2rem;
+    border-radius: 2rem;
+    margin:1rem;
+    cursor: pointer;
+    border:none;
+    box-shadow: 0rem .2rem .3rem rgb(5, 10, 26);
+}
+@media only screen and (min-width:1336px)
+{
+.btn:hover{
+    transform: translateY(-2px);
+}
+}
+
+.btn:active{
+    transform: translateY(-1px);
+}
+
+.btn-primary{
+    background:rgb(59, 138, 59);
+}
+
+.btn-secondary{
+    background:rgb(48, 78, 179);
+}
+
+.btn-submit{
+    margin:2rem auto;
+    background:rgb(59, 138, 59);
+    border-radius: 0;
+    padding:1.5rem 4rem
+}
+
+h1{
+    display: block;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    width:max-content;
+    margin:0 auto 4rem auto;
+    color:rgb(24, 45, 85);
+}
+
+
+
